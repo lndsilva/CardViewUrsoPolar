@@ -2,7 +2,7 @@
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/cardDisplay"
     android:layout_width="match_parent"
-    android:layout_height="360dp"
+    android:layout_height="400dp"
     android:layout_margin="10dp">
 
     <LinearLayout
@@ -14,7 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="180dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/urso_polar" />
+            android:src="@drawable/corujas" />
 
         <LinearLayout
             android:layout_marginLeft="10dp"
@@ -23,31 +23,31 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="urso-polar"
-            android:textAllCaps="true"
-            android:textColor="#782F0B"
-            android:textSize="40sp"
-            android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Corujas"
+                android:textAllCaps="true"
+                android:textColor="#782F0B"
+                android:textSize="40sp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Histórico"
-            android:textColor="#011635"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Características "
+                android:textColor="#011635"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:layout_marginTop="5sp"
-            android:layout_marginBottom="5sp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="É um mamífero solitário que vive nas águas geladas da região do círculo polar ártico."
-            android:textSize="15sp"
-            android:textStyle="normal" />
+            <TextView
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="5sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="As corujas são aves que apresentam algumas características bem típicas, como olhos grandes voltados para a frente, bicos curvos e fortes, garras com unhas afiadas e encurvadas, e plumagem macia."
+                android:textSize="15sp"
+                android:textStyle="normal" />
         </LinearLayout>
 
         <LinearLayout

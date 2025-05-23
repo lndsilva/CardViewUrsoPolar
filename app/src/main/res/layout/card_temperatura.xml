@@ -2,7 +2,7 @@
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="450dp">
+    android:layout_height="390dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,14 +13,14 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/barn" />
+            android:src="@drawable/onca" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="10sp"
-            android:text="Estância Camponesa"
+            android:text="Onça Pintada"
             android:textSize="30sp"
             android:textStyle="bold" />
 
@@ -29,11 +29,13 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="10sp"
-            android:text="A história das estâncias camponesas, ou simplesmente estâncias, remonta a tempos remotos, marcados pela organização social da vida rural e pela relação entre o ser humano e o meio ambiente."
+            android:textAlignment="inherit"
+            android:text="É o maior felino das Américas, o terceiro maior felino do mundo, atrás apenas do tigre (Panthera tigris) e do leão (Panthera leo)."
             android:textSize="12sp"
             android:textStyle="normal" />
 
         <LinearLayout
+            android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -52,6 +54,19 @@
                 android:text="9.5"
                 android:textSize="30sp"
                 android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_marginLeft="200dp"
+                android:src="@drawable/baseline_favorite" />
+
+            <ImageView
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/baseline_share" />
+
         </LinearLayout>
 
 
